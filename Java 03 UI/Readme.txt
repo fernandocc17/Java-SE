@@ -1,0 +1,1 @@
+This projects show how to make a UI with the common Layouts using Swing and AWT.

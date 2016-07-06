@@ -1,0 +1,1 @@
+This projects show how to parse XML files with the 2 base ways, DOM and SAX; the use is directly without any framework.

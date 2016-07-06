@@ -1,0 +1,1 @@
+This projects shows the most widely used classess per interface on the Collection framework, it will also show how to use generic and collections at the same time.

@@ -1,0 +1,1 @@
+This projects were built specially to show using JRockit some of the most common downfalls while programming with Java.
