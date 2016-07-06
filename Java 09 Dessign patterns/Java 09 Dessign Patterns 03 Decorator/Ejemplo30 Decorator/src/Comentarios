@@ -1,0 +1,26 @@
+El patron decorator se usa para ampliar la capacidad de los elementos de un proyecto.
+
+La base de este proyecto es la interface ProjectItem, esta es implementada por todas las demas clases menos ContactImpl ya que esta solo implementa Contact
+
+ProjectItem define un unico metodo getTimeRequired().
+
+Task y deliverable implementan ProjectItem y proporcionan las funciones basicas del proyecto.
+Task representa una misma tarea en un proyecto
+Deliverable representa algun producto concreto.
+
+ProjectDecorator implementa la interface ProjectItem y mantiene un objeto para otro ProjectItem que representa el "decorado", el metodo getTimeRequired lo delega a este elemento, para que dependa de la funcionalidad de ese componente.
+
+
+ProjectDecorator tiene dos subclases, 
+
+DependentProjectItem que se utiliza para mostrar que un objeto task o deliverable depende de otro projectitem para completarse.
+
+SupportedProjectItem decora un projectItem y mantiene un arraylist para referenciar documentos.
+
+La ventana es definir capacidades adicionales, asi resulta sencillo crear elementos del proyecto que tienen una combinacion de caracteristicas.
+
+Asi se puede hacer que una tarea dependa de otro del proyecto o de documentos adicionales.
+
+Se pueden encadenar decorators y crear una tarea que dependa de otra tarea y referencie varios documentos.
+
+Contact y ContactImpl proporcionan soporte para un propietario de un objeto task o deliverable

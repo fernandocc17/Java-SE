@@ -1,0 +1,7 @@
+<?xml version = "1.0" ?>
+<!DOCTYPE data SYSTEM "data.dtd">
+<data>
+<Emp_Id> E-001 </Emp_Id>
+<Emp_Name> Vinod </Emp_Name>
+<Emp_E-mail> Vinod1@yahoo.com </Emp_E-mail>
+</data>

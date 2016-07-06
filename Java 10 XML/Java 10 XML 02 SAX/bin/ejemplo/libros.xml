@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<libros xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+    <libro>
+        <titulo>El fin de una odisea</titulo>
+        <autor>Desconocido</autor>
+    </libro>
+    <libro>
+        <titulo>Un lugar en la mente de Kerz</titulo>
+        <autor>Desconocido</autor>
+    </libro>
+</libros>

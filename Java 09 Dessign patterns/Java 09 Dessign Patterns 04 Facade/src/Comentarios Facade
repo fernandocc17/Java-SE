@@ -1,0 +1,8 @@
+La clase nation guarda datos generales de un pais, como el nombre y el caracter asociado a su moneda.
+
+InternalizationWizard tiene varios get que delega en sus objetos asociados.
+
+El patron facade gestiona la configuracion para la internacionalizacion de varios de los objetos del ejemplo
+es posible gestionar cada objeto de forma individual, usando este patron en ciertas situaciones tmb permite gestionar conjuntamente un grupo de objetos
+
+Al invocar setNation se alteran las variables Currency,PhoneNumber y un conjunto de cadenas adaptadas para cada idioma(InternationalizedText)

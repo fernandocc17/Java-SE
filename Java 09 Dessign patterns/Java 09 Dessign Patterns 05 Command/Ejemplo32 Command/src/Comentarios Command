@@ -1,0 +1,5 @@
+La interface Command tiene el metodo execute que permite ejecutar el comando hecho por el usuario
+
+La interface undoablecommand extiende la interface command y agrega los metodos redo y undo.
+
+La clase changelocationCommand es la clase que implementa los tres metodos.

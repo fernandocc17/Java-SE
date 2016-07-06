@@ -1,0 +1,4 @@
+#Comentarios x de la vida
+#Mon May 14 10:23:56 CDT 2012
+2do\ valor=juan
+103666422=maria
