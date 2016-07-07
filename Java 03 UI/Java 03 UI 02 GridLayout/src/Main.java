@@ -1,11 +1,11 @@
-
-public class Principal {
+//https://github.com/fernandocc17, July 2016.
+public class Main {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-	Ventana v=new Ventana();
+	Window v=new Window();
 	
 	v.setSize(500,700);
 	
