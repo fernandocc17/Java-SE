@@ -1,0 +1,7 @@
+Assertion are used while testing the code, is a way to throw an exception when the code follows a path we don't want.
+
+To enable the assertion the program should be executed like this:
+
+java -ea|enableassertions mainClass
+
+The assertions are not in the production code 

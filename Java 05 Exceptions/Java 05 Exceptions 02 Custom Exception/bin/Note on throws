@@ -1,0 +1,1 @@
+If B inheritance the constructor from A that throws exceptions X,Y and Z; B can throw X,Y and Z exception(with their sub classes) but cannot throw another kind of exception 
