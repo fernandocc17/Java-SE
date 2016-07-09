@@ -22,5 +22,4 @@ public void sleep(){
 }
 //All the pets have a unique sound, making this method abstract make that all the subclasses of this have to implement this method.
 public abstract void makeASound();
-
 }
