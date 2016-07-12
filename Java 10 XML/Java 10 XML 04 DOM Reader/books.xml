@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<books xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+    <book>
+        <title>The Philosophy of Time Travel</title>
+        <author>Roberta Sparrow</author>
+    </book>
+    <book>
+        <title>The greatness guide</title>
+        <author>Robin Sharma</author>
+    </book>
+    <book>
+        <title>Foundation</title>
+        <author>Isaac Asimov</author>
+    </book>
+    <book>
+        <title>The greatness guide</title>
+        <author>Robin Sharma</author>
+    </book>
+    <book>
+        <title>Hitchhiker guide to the galaxy</title>
+        <author>Douglas Adams</author>
+    </book>
+    <book>
+        <title>Rayuela</title>
+        <author>Julio Cortazar</author>
+    </book>
+    <book>
+        <title>Animal Farm</title>
+        <author>George Orwell</author>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+    </book>
+    <book>
+        <title>100 anos de soledad</title>
+        <author>Gabriel Garcia Marquez</author>
+    </book>
+</books>
