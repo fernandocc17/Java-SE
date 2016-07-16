@@ -1,0 +1,1 @@
+This example will shows how to use polymorphism to store/retrieve details about an author to either a DB or a file.

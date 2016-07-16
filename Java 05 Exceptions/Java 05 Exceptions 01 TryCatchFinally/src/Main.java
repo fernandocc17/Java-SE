@@ -2,15 +2,13 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 public class Main {
-
  public static void main(String[] args) {
 	 String text;
 	 InputStreamReader isr=new InputStreamReader(System.in);
 	 BufferedReader br=new BufferedReader(isr);
-	 
 	 System.out.println("Write something");
+
 	 //Ideally the try-catch block should be as small as possible since from the line it fails it will go to catch block.
 	 //In Java SE7 was introduced the Try with resources it goes like this:
 	 //try ( BufferedReader br=new BufferedReader(new InputStreamReader(System.in)) ) {...}

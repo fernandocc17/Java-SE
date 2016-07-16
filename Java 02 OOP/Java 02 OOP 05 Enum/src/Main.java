@@ -1,5 +1,6 @@
 //https://github.com/fernandocc17, July 2016.
 import java.util.Scanner;
+import enums.Days;
 public class Main {
 	public static void main(String[] args) {
 		//option for the switch
@@ -9,9 +10,10 @@ public class Main {
 		Days d = null;
 		System.out.println("Day of the week:");
 		day = sc.nextInt();
+		
 		switch (day) {
 		case 0:
-			//The Enum dondt need to be instantiated with "new"...but they can be 
+			//The Enum cannot be instantiated. 
 			d = Days.SUNDAY;
 			break;
 		case 1:
@@ -35,6 +37,6 @@ public class Main {
 		default:
 			System.out.println("Invalid day");
 		}
-		System.out.println("Day's name "+d.name()+" and the value is "+d.value);
+		System.out.println("Day's name "+d.name()+" and the value is "+d.getValue());
 	}
 }

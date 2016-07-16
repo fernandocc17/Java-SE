@@ -3,7 +3,7 @@ public class HolaMundoN{
     public native void presentaSaludo();    
     
 static{
- System.loadLibrary("hola");
+ System.loadLibrary("Hello");
 }
 
 
