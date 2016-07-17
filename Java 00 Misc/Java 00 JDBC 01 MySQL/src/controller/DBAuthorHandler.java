@@ -5,18 +5,20 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.List;
+
 import model.Author;
 //This is just a example code and is not necessarily the best way to do it.
 public class DBAuthorHandler extends DBConnector{
 	//dealing with all the exception one by one here
-	public ArrayList<Author> showAuthors(){
+	public List<Author> showAuthors(){
 		//Calling the method on the DBConnector class to get a connection to the DB
 		connect();
 		//this object allows DB operations using the connection object.
 		Statement statement=null;
 		//This is the object where we will store the DB rows,it comes as a matrix with the fields names as a header
 		ResultSet rs=null;
-		ArrayList<Author> authors =new ArrayList<Author>();
+		List<Author> authors =new ArrayList<Author>();
 		try {
 			//now this object is actually connected to the DB.
 			statement=con.createStatement();

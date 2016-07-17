@@ -1,7 +1,7 @@
 //https://github.com/fernandocc17, July 2016.
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 
 import model.Author;
@@ -26,7 +26,7 @@ public class Main {
 			opc=sc.nextInt();
 			switch (opc){
 			case SELECT:	
-				ArrayList<Author> autores=authorHandler.showAuthors();
+				List<Author> autores=authorHandler.showAuthors();
 				Iterator<Author> it=autores.iterator();	
 				while (it.hasNext()){
 					System.out.println(it.next().toString());
@@ -64,9 +64,9 @@ public class Main {
 			case EXIT:
 				System.out.println("Bye");
 			default:
-				System.out.println("Wrong choice");
+				System.out.println("Wrong option");
 			}
-		}while(opc!=5);		
+		}while(opc!=EXIT);		
 		System.out.println("Now do the book part");
 	}
 }
