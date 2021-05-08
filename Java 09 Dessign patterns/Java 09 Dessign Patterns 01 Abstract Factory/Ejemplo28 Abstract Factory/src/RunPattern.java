@@ -4,6 +4,8 @@ import Interface.AddressFactory;
 
 public class RunPattern{
     public static void main(String [] arguments){
+    	
+    	System.out.println("ddddd");
         System.out.println("Example for the AbstractFactory pattern");
         System.out.println(" (take a look in the RunPattern code. Notice that you can");
         System.out.println("  use the Address and PhoneNumber classes when writing");
